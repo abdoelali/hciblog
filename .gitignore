@@ -1,6 +1,5 @@
 _drafts/
 _site/
 .jekyll-cache
-_config.yml
 .DS_Store
 *.swp
