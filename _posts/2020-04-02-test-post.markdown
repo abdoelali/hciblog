@@ -11,7 +11,5 @@ categories: jekyll update
 ---
 
 
-This post is in my `_posts` directory. random mumblings go here. Link to [website:](/hciblog/) and [here](https://abdoelali.com)
-
-
+This post is in my `_posts` directory. random mumblings go here. Link to [website:](/hciblog/) and [here](https://ad)
 <!-- [jekyll-talk]: https://talk.jekyllrb.com/ -->
