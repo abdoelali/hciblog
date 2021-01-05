@@ -22,7 +22,10 @@ body {
   text-align: center; */
 
   /* color: #000000; */
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  /* font-family: "Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;" */
+
   font-weight: 400;
   text-shadow: none;
   text-align: left;
@@ -35,6 +38,7 @@ font-family: 'Raleway', sans-serif; */
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
+  color: #033649;
 }
 
 h1 {
@@ -43,11 +47,16 @@ h1 {
 
 p {
   margin: 1em 0;
+  font-family: "Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;"
+  font-size: 110%;
 }
 
 a {
   /* color: #00a; */
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+
   color: #000000;
   /* border-bottom-width: 1px; */
   border-bottom-style: solid;
@@ -94,7 +103,9 @@ ul.posts {
 
   ul.posts span {
     color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
+    /* font-family: Monaco, "Courier New", monospace; */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 80%;
   }
 
@@ -110,9 +121,9 @@ list-style: none;
 /*****************************************************************************/
 
 .site {
-  font-size: 110%;
-  text-align: justify;
-  width: 60%;
+  /* font-size: 110%; */
+  text-align: left;
+  width: 50%;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
@@ -126,7 +137,10 @@ list-style: none;
 
   .site .title a {
       color: #000;
-      font-family: 'Raleway', sans-serif;
+      /* color: #033649; */
+      /* font-family: 'Raleway', sans-serif; */
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
       font-weight: bold;
       margin-bottom: 2em;
       border-bottom-style: none;
@@ -149,7 +163,8 @@ list-style: none;
   }
 
   .site .meta {
-    color: #aaa;
+    /* color: #aaa; */
+    color: #584669;
   }
 
   .site .footer {
@@ -166,7 +181,8 @@ list-style: none;
     }
 
       .site .footer .contact a {
-        color: #000;
+        /* color: #000; */
+        color: #033649;
         border-bottom-style: none;
       }
 
@@ -238,3 +254,8 @@ list-style: none;
   #related h2 {
     margin-bottom: 1em;
   }
+
+.reading-time {
+
+    color: #aaa;
+}

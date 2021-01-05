@@ -2,12 +2,67 @@
 layout: default
 
 ---
-[{% include reading-time.html %}]
+<h1>{{ page.title }}</h1>
+<p class="meta">{{ page.date | date_to_long_string }} by abd0 - {{ page.categories | join: ', '}} </p>
+
+
 
 <div id="post" style="margin-top: 20px;">
+{% include reading-time.html %}
+</div>
+
+---
+
+
 
 {{ content }}
-</div>
+
+
+
+
+
+<!-- <div class="relatedPosts">
+
+    <div class="relatedPosts">
+
+    <h4>Related by tags</h4>
+    <br>
+    {% assign maxRelated = 4 %}
+    {% assign minCommonTags =  2 %}
+    {% assign maxRelatedCounter = 0 %}
+
+    {% for post in site.posts %}
+
+        {% assign sameTagCount = 0 %}
+        {% assign commonTags = '' %}
+
+        {% for category in post.categories %}
+          {% if post.url != page.url %}
+            {% if page.categories contains category %}
+              {% assign sameTagCount = sameTagCount | plus: 1 %}
+              {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+              {% assign commonTags = commonTags | append: tagmarkup %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+        {% if sameTagCount >= minCommonTags %}
+          <div>
+          <span>{{ post.date | date_to_string }}</span> &raquo;&nbsp;<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </div>
+          {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+          {% if maxRelatedCounter >= maxRelated %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+ -->
+
+
+
 
 
 <div id="related">
