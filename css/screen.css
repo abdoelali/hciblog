@@ -43,6 +43,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin-bottom: 1em;
+  font-size: 120%;
 }
 
 p {
@@ -62,6 +63,14 @@ a {
   border-bottom-style: solid;
   padding-bottom: 1px;
 }
+
+.post-link {
+
+font-size: 120%;
+
+
+}
+
 
 a:-webkit-any-link {
     /* color: -webkit-link; */
@@ -123,7 +132,7 @@ list-style: none;
 .site {
   /* font-size: 110%; */
   text-align: left;
-  width: 50%;
+  width: 60%;
   margin: 3em auto 2em auto;
   line-height: 1.5em;
 }
@@ -137,6 +146,7 @@ list-style: none;
 
   .site .title a {
       color: #000;
+      font-size: 120%;
       /* color: #033649; */
       /* font-family: 'Raleway', sans-serif; */
       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
@@ -168,7 +178,7 @@ list-style: none;
   }
 
   .site .footer {
-    font-size: 80%;
+    font-size: 90%;
     color: #666;
     border-top: 4px solid #eee;
     margin-top: 8em;
