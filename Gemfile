@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-archives'
 
-
+# gem "kramdown", ">= 2.3.0"
 
 #     bundle exec jekyll serve
 #
