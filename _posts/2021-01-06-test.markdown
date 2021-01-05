@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "test post"
+date:   2020-01-05 18:23:00 +0100
+tags:
+- affective computing
+
+---
+<!-- categories: [HCI, Affective Computing] -->
+
+
+
+
+<!-- <h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
+
+<ul class="posts">
+{% for post in site.posts %}
+  <li>
+    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul> -->
+
+
+
+
+<!-- {%- assign posts = site.posts | where:"categories","post" -%}
+{%- assign groupedByYear = posts | group_by_exp:"post","post.date | date:'%Y' " -%}
+
+{%- for yearitem in groupedByYear -%}
+    {{ yearitem.name }}
+{% endfor %} -->
+
+<!--
+{% for post in page.posts %}
+
+{{ post.date | date: "%b %-d, %Y" }}
+
+    <!-- <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li> -->
+ <!-- {% endfor %} -->
+
+
+<!-- This post is in my `_posts` directory. random mumblings go here. Link to [website:](/hciblog/) and [here](https://ad) -->
+
+<!-- [jekyll-talk]: https://talk.jekyllrb.com/ -->
