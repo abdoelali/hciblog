@@ -24,6 +24,7 @@ body {
   /* color: #000000; */
   /* font-family: 'Raleway', sans-serif; */
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  /* font-size: large; */
   /* font-family: "Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;" */
 
   font-weight: 400;
@@ -43,12 +44,13 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   margin-bottom: 1em;
-  font-size: 120%;
+  font-size: x-large;
 }
 
 p {
   margin: 1em 0;
-  font-family: "Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;"
+  /* font-family: "Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;" */
+  font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif
   font-size: 110%;
 }
 
@@ -59,14 +61,14 @@ a {
   Helvetica, Arial, "Lucida Grande", sans-serif;
 
   color: #000000;
-  /* border-bottom-width: 1px; */
+  border-bottom-width: 1px;
   border-bottom-style: solid;
   padding-bottom: 1px;
 }
 
 .post-link {
 
-font-size: 120%;
+font-size: large;
 
 
 }
@@ -104,6 +106,7 @@ table {
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
+
 }
 
   ul.posts li {
@@ -119,10 +122,15 @@ ul.posts {
   }
 
 ul.post-list li {
-margin-top: 2%;
+margin-top: 4%;
+
 list-style: none;
 }
 
+.home {
+
+    padding-top: 0.5%;
+}
 /*****************************************************************************/
 /*
 /* Site
@@ -146,7 +154,7 @@ list-style: none;
 
   .site .title a {
       color: #000;
-      font-size: 120%;
+      font-size: 100%;
       /* color: #033649; */
       /* font-family: 'Raleway', sans-serif; */
       font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
@@ -159,17 +167,20 @@ list-style: none;
   }
 
   .site .title a:hover {
-    color: black;
+    color: #009999;
+
   }
 
   .site .title a.extra {
     color: #aaa;
     text-decoration: none;
     margin-left: 1em;
+    display:none;
+
   }
 
   .site .title a.extra:hover {
-    color: black;
+    color: #009999;
   }
 
   .site .meta {
@@ -268,4 +279,13 @@ list-style: none;
 .reading-time {
 
     color: #aaa;
+}
+
+.blog-roll-image {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  float: left;
+  margin-right: 2%;
+  border-radius: 10%;
 }
