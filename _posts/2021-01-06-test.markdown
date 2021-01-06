@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "test post"
+title:  "Hello World"
 date:   2020-01-05 18:23:00 +0100
 tags:
-- affective computing
+- hci
 
 ---
 <!-- categories: [HCI, Affective Computing] -->
